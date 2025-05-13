@@ -22,7 +22,7 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
       - name: Add upstream remote
-        run: git remote add upstream https://github.com/hithesis/hithesis.git
+        run: git remote add upstream https://github.com/deepseek-ai/awesome-deepseek-integration.git
 
       - name: Fetch upstream
         run: git fetch upstream
